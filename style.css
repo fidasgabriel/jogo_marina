@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#marina {
+  width: 20rem;
+  height: 20rem;
+  padding: 2rem;
+}
+
+#rosto {
+  background: rgb(241, 208, 187);
+  width: 10rem;
+  border-radius: 100%;
+  height: 10rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+#esquerdo {
+  transform: rotate(15deg);
+}
+
+#direito {
+  transform: rotate(-15deg);
+}
+
+.olhos {
+  width: 2rem;
+  height: 0.3rem;
+  background: #222121;
+}
+
+.divOlhos {
+  width: 10rem;
+  display: flex;
+  gap: 1.3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.oculos {
+  width: 10rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+}
+
+.lens {
+  width: 3rem;
+  height: 100%;
+  background-color: transparent;
+  border-radius: 0;
+  position: relative;
+}
+
+.square {
+  width: 3.5rem;
+  height: 2rem;
+  background-color: transparent;
+  border: 4px solid #484545;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 0 0 14px 14px;
+}
+
+.bridge {
+  width: 1rem;
+  height: 4px;
+  background-color: #484545;
+}
